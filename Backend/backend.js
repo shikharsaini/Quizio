@@ -10,13 +10,6 @@ app.use(cors());
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Types.ObjectId;
 console.log("Connecting")
-mongoose.connect("mongodb+srv://ShikharSaini:12345@cluster0.mzooh.mongodb.net/?retryWrites=true&w=majority",(err) => {
-    if(err) console.log(err) 
-    else console.log("mongdb is connected");
-   },{
-    useNewUrlParser:true,
-    useUnifiedTopology:true
-}); 
 
 const UserDetails={
     id:'',
