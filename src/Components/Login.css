@@ -1,0 +1,20 @@
+.Login_content{
+    width: 80%;
+    padding: 4%;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.forms{
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 10%;
+    font-size: 140%;
+}
+
+.Loginbutton{
+    width: 90%;
+    padding: 4%;
+    margin-bottom: 10%;
+    font-size: 140%;
+}

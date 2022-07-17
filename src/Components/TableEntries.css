@@ -1,0 +1,15 @@
+table, td, th {
+    border: 1px solid black;
+}  
+table {
+border-collapse: collapse;
+width: 40%;
+}
+
+/* th {
+height: 70px;
+font-size: 150%;
+}
+td{
+    font-size: 100%;
+} */

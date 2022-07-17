@@ -1,0 +1,25 @@
+table, td, th {
+    border: 1px solid black;
+}  
+table {
+border-collapse: collapse;
+width: 45%;
+font-size: 120%;
+}
+
+th {
+height: 70px;
+font-size: 150%;
+padding: 2%;
+}
+td{
+    font-size: 120%;
+    padding: 2%;
+}
+
+.backbutton{
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 220%;
+    float: left;
+}

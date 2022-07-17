@@ -1,0 +1,25 @@
+.Sidebar {
+  float: left;
+  position: relative;
+  height: 100%;
+  width: 20%;
+  background-color: white;
+}
+
+.Main{
+  clear: left;
+  font-size: 30px;
+  font-weight: bold;
+  float:left;
+}
+
+.icons{
+  clear: left;
+  float: left;
+  font-size: 25px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}

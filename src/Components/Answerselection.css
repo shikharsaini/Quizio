@@ -1,0 +1,17 @@
+.Answer{
+    background-color: lightgreen;
+    color:black
+}
+.Answer:focus{
+    background-color: lightgreen;
+    color:black
+}
+
+.stylebutton{
+    border: 1px solid black;
+}
+
+.stylebutton:hover{
+    background-color: lightgrey;
+    border: 1px solid grey;
+}

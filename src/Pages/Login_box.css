@@ -1,0 +1,11 @@
+.Box{
+    width: 30%;
+    height: 60%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border-radius: 4%;
+    border: 3px black solid;
+    box-shadow: 2px 2px 3px 2px white;
+    background-color: azure;
+}

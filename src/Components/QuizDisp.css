@@ -1,0 +1,17 @@
+.QuizBoxes{
+    margin: 7%;
+    border: 2px solid plum;
+    padding: 3%;
+    padding-left: 2%;
+}
+.textStyle{
+    color: black;
+}
+.stylesbutton{
+    border: 1px solid black;
+}
+
+.stylesbutton:hover{
+    border: 1px solid black;
+    box-shadow: 6px 6px lightblue;
+}

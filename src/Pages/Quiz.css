@@ -1,0 +1,36 @@
+.AccessText{
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 9%;
+    font-size: 260%;
+    float: left;
+}
+.userText{
+    margin-top: 5%;
+    font-size: 270%;
+}
+
+.StartButton{
+    display: inline;
+    margin-left: 2%;
+    margin-top: 9%;
+    font-size: 180%;
+    padding: 0.80%;
+    color: white;
+    border: 5px solid lightcyan;
+    border-radius: 10%;
+    background-color: black;
+    float: left;
+}
+.StartButton:hover{
+    display: inline;
+    margin-left: 2%;
+    margin-top: 9%;
+    font-size: 180%;
+    padding: 0.80%;
+    color: white;
+    border: 5px solid lightyellow;
+    border-radius: 10%;
+    background-color: black;
+    float: left;
+}

@@ -1,0 +1,33 @@
+.TypeSelect{
+    margin: 15%;
+    width: 100%;
+    font-size: 140%;
+}
+
+.nextButton{
+    width: 20%;
+    margin-left: 80%;
+    font-size: 140%;
+    background-color: lightblue;
+}
+
+.nextButton:hover{
+    background-color: rgb(164, 213, 230);
+    box-shadow: 6px 6px aqua;
+}
+
+.quizbutton{
+    width: 20%;
+    font-size: 140%;
+    color: black;
+    background-color: lightblue;
+}
+.quizbutton:hover{
+    background-color: rgb(164, 213, 230);
+    color: black;
+    box-shadow: 6px 6px aqua;
+}
+.headingStyle{
+    width: 100%;
+    margin: 5%;
+}
