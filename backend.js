@@ -35,9 +35,9 @@ const UserSchema=new mongoose.Schema({
 });
 const UserModel=new mongoose.model("UserModel",UserSchema);
 
-app.get('/',(req,res)=>{
-    res.send("backend");
-});
+// app.get('/',(req,res)=>{
+//     res.send("backend");
+// });
 
 app.get('/GetUsers',(req,res)=>{
     UserModel.find({},{__id:1,name:1,password:1,email:1},function(err, result) {
@@ -262,7 +262,6 @@ if(process.env.NODE_ENV == 'production'){
         res.sendFile(path.resolve(__dirname,'Client','build','index.html'))
     })
 }
-
 
 app.listen(9002,()=>{
     console.log('Server Listening');
