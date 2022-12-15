@@ -11,13 +11,22 @@ const Schema = mongoose.Schema;
 const ObjectId = mongoose.Types.ObjectId;
 console.log("Connecting")
 
+const {MONGOURI} = require('./Config/keys');
+const exp = require('constants');
+
 const UserDetails={
     id:'',
     name:'',
     email:'',
     password:''
 }
-
+mongoose.connect(MONGOURI,(err) => {
+    if(err) console.log(err) 
+    else console.log("mongdb is connected");
+   },{
+    useNewUrlParser:true,
+    useUnifiedTopology:true
+}); 
 
 const UserSchema=new mongoose.Schema({
     name:String,
@@ -245,6 +254,14 @@ app.get('/GetLeaderboard',(req,res)=>{
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+if(process.env.NODE_ENV == 'production'){
+    const path = require('path')
+    app.get('/',(req,res)=>{
+        app.use(express.static(path.resolve(__dirname,'client','build')))
+        res.sendFile(path.resolve(__dirname,'client','build','index.html'))
+    })
+}
 
 
 app.listen(9002,()=>{

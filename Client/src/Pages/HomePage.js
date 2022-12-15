@@ -18,18 +18,7 @@ function HomePage(props){
     }
     const [cont, setcont]=useState([]);
     const [Display, setDisplay]=useState("Homepage");
-    // useEffect(() => {
-    //     axios.get('http://localhost:9002/GetUsers').then((res)=>{
-    //     var temp=[];
-    //     res.data.map((user ,key)=>(temp.push(user)));
-    //     let content = [];
-    //     for (let i = 0; i < temp.length; i++) {
-    //       const item = temp[i];
-    //       content.push(<div><div>{item.name}</div><div>{item._id}</div></div>);
-    //     }
-    //     setcont(content);
-    //     });
-    // },[]);
+    
     useEffect(()=>{
         if(Display=="Logout")
         HandleLogout();
