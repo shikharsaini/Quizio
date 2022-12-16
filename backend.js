@@ -36,7 +36,11 @@ const UserSchema=new mongoose.Schema({
 const UserModel=new mongoose.model("UserModel",UserSchema);
 
 // app.get('/',(req,res)=>{
-//     res.send("backend");
+//     const path = require('path')
+//     app.get('/',(req,res)=>{
+//         app.use(express.static(path.resolve(__dirname,'Client','build')))
+//         res.sendFile(path.resolve(__dirname,'Client','build','index.html'))
+//     })
 // });
 
 app.get('/GetUsers',(req,res)=>{
@@ -262,7 +266,6 @@ if(process.env.NODE_ENV == 'production'){
         res.sendFile(path.resolve(__dirname,'Client','build','index.html'))
     })
 }
-
 app.listen(9002,()=>{
     console.log('Server Listening');
 });
